@@ -1,0 +1,45 @@
+.banner {
+  background: url("/public/images/farmer.jpg");
+  height: 155vh;
+  position: relative;
+}
+
+.banner__info {
+  background-color: rgb(83, 44, 12);
+  color: white;
+  height: 149.7vh;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 50vh;
+  padding-bottom: 99.7vh;
+  width: 400px;
+}
+
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ec5b08 !important;
+}
+
+.banner__info > button {
+  background-color: #99d40e;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.banner__info > button:hover {
+  background-color: white;
+  color: #ff7779;
+}
+
+.banner__info > h5 {
+  margin-top: 10px;
+}
